@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/logs.css">
+    <title>Logs</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <img src="../images/devices.png">
+            <span class="logo_name">Device Manager</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="dashboard.html">
+                    <img src="../images/dashboard.png">
+                    <span class="links_name">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="logs.html">
+                    <img src="../images/logs.png">
+                    <span class="links_name">Logs</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../images/setting.jpg">
+                    <span class="links_name">Settings</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <nav>
+            <div class="profile-details">
+                <img src="../images/account.png">
+                <span class="admin_name">Welcome John</span>
+            </div>
+        </nav>
+        <div class="home-content">
+            <div class="heading">
+                <h2>Action Logs</h2>
+                <div class="btn">
+                    <input type="text" id="name" placeholder="Name">
+                    <button type="button" id="searchBtn">Search</button>
+                </div>
+            </div>
+            <div class="overview-boxes" id="overview-boxes">
+                <table class="table" data-pagecount="3">
+                    <thead>
+                        <tr id="headingTable">
+                            <th>Device ID</th>
+                            <th>Name</th>
+                            <th>Action</th>
+                            <th>Date</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyTable"></tbody>
+                </table>
+                <nav aria-label="Page navigation example" id="paginationBar">
+                    <ul class="pagination" id="paginationTable"></ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="../js/logs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+  .page_item {
+    margin: 0px 10px;
+  }
+
+  .page_link {
+    height: 40px;
+    width: 40px;
+    background: #588ef8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .page_link:hover {
+    background: #8f9ebd;
+  }
+}

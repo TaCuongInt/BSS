@@ -1,0 +1,124 @@
+.wrapper {
+  display: flex;
+  min-height: 115vh;
+
+  .sidebar {
+    flex: 240;
+  }
+
+  .main {
+    flex: 1280;
+    background-color: #f5f5f5;
+  }
+
+  .content {
+    padding-top: 70px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .bottom {
+    padding: 30px 0px;
+    display: flex;
+
+    .chart,
+    .addForm {
+      flex: 1;
+      background-color: #fff;
+    }
+
+    .chart {
+      margin-right: 50px;
+    }
+
+    .addForm {
+      input {
+        padding: 15px 25px;
+      }
+    }
+  }
+
+  .nav_btn {
+    width: 20px;
+    height: 20px;
+    display: none;
+  }
+
+  .nav_overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    flex-direction: column;
+    background-color: #f5f5f5;
+
+    .content {
+      padding-top: 20px;
+    }
+
+    .bottom {
+      padding: 0px 0px;
+      flex-direction: column;
+
+      .chart,
+      .addForm {
+        margin: 0px 0px 30px 0px;
+      }
+
+      .chart {
+        min-height: 400px;
+      }
+
+      input {
+        min-width: unset;
+      }
+
+      button {
+        margin: 10px 0px;
+      }
+    }
+
+    .sidebar {
+      display: none;
+      z-index: 2;
+    }
+
+    .nav_btn {
+      display: block;
+      height: 20px;
+      width: 20px;
+      margin-top: 20px;
+      margin-left: 15px;
+    }
+
+    .nav_input:checked ~ .nav_btn {
+      display: none;
+    }
+
+    .nav_input:checked ~ .sidebar {
+      display: block;
+      width: 182px;
+      background: #fff;
+    }
+
+    .nav_input:checked ~ .main {
+      position: fixed;
+      top: 40px;
+      right: 0;
+      left: 0;
+    }
+
+    .nav_input:checked ~ .nav_overlay {
+      display: block;
+    }
+  }
+}

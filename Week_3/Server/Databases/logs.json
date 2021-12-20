@@ -1,0 +1,248 @@
+[
+  {
+    "Device_ID": 101,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2021-01-15"
+  },
+  {
+    "Device_ID": 102,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2021-02-20"
+  },
+  {
+    "Device_ID": 103,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2021-05-30"
+  },
+  {
+    "Device_ID": 104,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2021-06-30"
+  },
+  {
+    "Device_ID": 105,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2018-11-30"
+  },
+  {
+    "Device_ID": 106,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2012-06-11"
+  },
+  {
+    "Device_ID": 107,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2011-04-22"
+  },
+  {
+    "Device_ID": 108,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2020-05-30"
+  },
+  {
+    "Device_ID": 109,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2020-05-31"
+  },
+  {
+    "Device_ID": 110,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2021-01-11"
+  },
+  {
+    "Device_ID": 111,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2020-05-30"
+  },
+  {
+    "Device_ID": 112,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2018-04-30"
+  },
+  {
+    "Device_ID": 113,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2014-08-29"
+  },
+  {
+    "Device_ID": 114,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2012-12-27"
+  },
+  {
+    "Device_ID": 115,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2017-11-10"
+  },
+  {
+    "Device_ID": 116,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2021-05-31"
+  },
+  {
+    "Device_ID": 117,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2018-07-09"
+  },
+  {
+    "Device_ID": 118,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2020-07-30"
+  },
+  {
+    "Device_ID": 119,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2021-06-30"
+  },
+  {
+    "Device_ID": 120,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2021-04-22"
+  },
+  {
+    "Device_ID": 121,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2017-06-05"
+  },
+  {
+    "Device_ID": 122,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2018-08-17"
+  },
+  {
+    "Device_ID": 123,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2015-05-20"
+  },
+  {
+    "Device_ID": 124,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2020-09-24"
+  },
+  {
+    "Device_ID": 125,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2020-08-27"
+  },
+  {
+    "Device_ID": 126,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2018-26-29"
+  },
+  {
+    "Device_ID": 127,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2020-11-22"
+  },
+  {
+    "Device_ID": 128,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2019-07-22"
+  },
+  {
+    "Device_ID": 129,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2008-08-20"
+  },
+  {
+    "Device_ID": 130,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2021-03-17"
+  },
+  {
+    "Device_ID": 131,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2016-06-22"
+  },
+  {
+    "Device_ID": 132,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2015-04-05"
+  },
+  {
+    "Device_ID": 133,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2020-03-08"
+  },
+  {
+    "Device_ID": 134,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2021-01-01"
+  },
+  {
+    "Device_ID": 135,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2021-07-17"
+  },
+  {
+    "Device_ID": 136,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2014-04-06"
+  },
+  {
+    "Device_ID": 137,
+    "Name": "TV",
+    "Action": "Turn On",
+    "Date": "2016-12-25"
+  },
+  {
+    "Device_ID": 138,
+    "Name": "Washer",
+    "Action": "Sleep",
+    "Date": "2020-05-05"
+  },
+  {
+    "Device_ID": 139,
+    "Name": "Refrigerator",
+    "Action": "Turn Off",
+    "Date": "2011-10-03"
+  },
+  {
+    "Device_ID": 140,
+    "Name": "Selling Fan",
+    "Action": "Turn On",
+    "Date": "2020-07-21"
+  },
+  {
+    "Device_ID": 141,
+    "Name": "TV",
+    "Action": "Turn Off",
+    "Date": "2016-08-04"
+  }
+]

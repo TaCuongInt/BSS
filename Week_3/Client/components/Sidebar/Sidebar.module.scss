@@ -1,0 +1,43 @@
+.wrapper {
+  position: sticky;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  box-shadow: 2px 70px 1px rgb(0 0 0 / 10%);
+
+  .logo {
+    padding-top: 15px;
+
+    img {
+      max-width: 40px;
+      margin: 0px 10px 0px 20px;
+    }
+
+    .heading {
+      font-weight: 600;
+      color: #333;
+    }
+  }
+
+  .menu {
+    margin-top: 15px;
+  }
+
+  .account {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    box-shadow: unset;
+
+    .logo {
+      display: none;
+    }
+
+    .account {
+      display: block;
+    }
+  }
+}

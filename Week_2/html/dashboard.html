@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-pie.min.js"></script>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+    <label for="nav-mobile-input" class="nav__overlay"></label>
+    <div class="sidebar">
+        <div class="logo-details">
+            <img src="../images/devices.png">
+            <span class="logo_name">Device Manager</span>
+        </div>
+        <nav>
+            <div class="profile-details">
+                <img src="../images/account.png">
+                <span class="admin_name">Welcome John</span>
+            </div>
+        </nav>
+        <ul class="nav-links">
+            <li>
+                <a href="dashboard.html">
+                    <img src="../images/dashboard.png">
+                    <span class="links_name">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="logs.html">
+                    <img src="../images/logs.png">
+                    <span class="links_name">Logs</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../images/setting.jpg">
+                    <span class="links_name">Settings</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <label class="nav_bar-btn" for="nav-mobile-input">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+    </label>
+    <section class="home-section">
+        <nav>
+            <div class="profile-details">
+                <img src="../images/account.png">
+                <span class="admin_name">Welcome John</span>
+            </div>
+        </nav>
+        <div class="home-content">
+            <div class="overview-boxes" id="overview-boxes"></div>
+            <div class="devices-boxes">
+                <div class="donut_chart">
+                    <div id="container"></div>
+                </div>
+                <div class="add-device">
+                    <form>
+                        <div class="input">
+                            <input type="text" id="device_name" placeholder="Device name">
+                        </div>
+                        <div class="input">
+                            <input type="text" id="ip_address" placeholder="IP address">
+                        </div>
+                        <div class="btn">
+                            <button type="button" onclick="crudApp.RandomCreateNew()">ADD DEVICE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="../js/dashboard.js"></script>
+</body>
+
+</html>

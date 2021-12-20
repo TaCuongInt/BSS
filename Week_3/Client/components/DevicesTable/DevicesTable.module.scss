@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100%;
+  background-color: #fff;
+
+  table {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    display: none;
+  }
+}
